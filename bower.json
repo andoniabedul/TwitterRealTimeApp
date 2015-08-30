@@ -1,0 +1,22 @@
+{
+  "name": "Twitter_Real-Time_Application",
+  "version": "0.0.0",
+  "homepage": "https://github.com/akh000/TwitterNodeRT",
+  "authors": [
+    "Andoni Abedul <abedul@protonmail.ch>"
+  ],
+  "main": "app.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "react": "~0.11.1"
+  }
+}

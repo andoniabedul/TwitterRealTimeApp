@@ -1,0 +1,25 @@
+{
+  "name": "Twitter_Real-Time_Application",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "server": "nodemon ./bin/www",
+    "watch": "watchify -t reactify js/main.jsx -o public/javascripts/bundle.js -v"
+  },
+  "dependencies": {
+    "express": "~4.2.0",
+    "static-favicon": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "ejs": "~0.8.5",
+    "less-middleware": "1.0.x",
+    "oauth": "^0.9.12",
+    "express-session": "^1.7.4",
+    "underscore": "^1.6.0",
+    "reactify": "~0.14.0",
+    "moment": "^2.8.1"
+  }
+}
